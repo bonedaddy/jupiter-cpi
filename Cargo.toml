@@ -16,8 +16,13 @@ no-log-ix-name = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-anchor-gen = { git = "https://github.com/jup-ag/anchor-gen.git", rev = "dae4c216b883ea089432ff5c00d100f4f662fd07" }
+#anchor-gen = { git = "https://github.com/jup-ag/anchor-gen.git", rev = "dae4c216b883ea089432ff5c00d100f4f662fd07" }
 anchor-lang = ">=0.26.0"
 solana-program = ">=1.13"
 jupiter-amm-interface = ">=0.2.1"
 rand = "0.8.5"
+
+
+[dependencies.anchor-gen]
+git = "https://github.com/bonedaddy/anchor-gen"
+rev = "6aa968e295cecbadc2a12954e514df05e6d768a7"
